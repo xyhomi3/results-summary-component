@@ -3,6 +3,10 @@ import memory from "@src/assets/images/icon-memory.svg";
 import verbal from "@src/assets/images/icon-verbal.svg";
 import visual from "@src/assets/images/icon-visual.svg";
 
+function reloadPage() {
+  window.location.reload(); // This will reload the current page
+}
+
 function App() {
   const summaryData = [
     {
@@ -95,7 +99,7 @@ function App() {
           </ul>
 
           <div className="space">
-            <button>Continue</button>
+            <button onClick={reloadPage}>Continue</button>
           </div>
 
           <div className="attribution">
