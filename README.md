@@ -47,4 +47,4 @@ Users should be able to:
 - XYHOMi3
 - GitHub: [@xyhomi3](https://www.github.com/xyhomi3)
 - Twitter: [@xyhomi3](https://www.twitter.com/xyhomi3)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/xyhomi3)
+- Frontend Mentor - [@xyhomi3](https://www.frontendmentor.io/profile/xyhomi3)
