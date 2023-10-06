@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/interactivecarddetailsform-wbunvitereacttypescipt-2NxVVbuQfm)
+- [Solution URL](https://www.frontendmentor.io/solutions/results-summary-component-solution-wbunvitereacttypescriptcss-KotlQyYj6n)
 
-- [Live Site URL](https://xyhomi3.github.io/interactive-card-details-form/)
+- [Live Site URL](https://xyhomi3.github.io/results-summary-component/)
 
 ### Built With
 
