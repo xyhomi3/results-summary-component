@@ -1,24 +1,29 @@
+import reaction from "@src/assets/images/icon-reaction.svg";
+import memory from "@src/assets/images/icon-memory.svg";
+import verbal from "@src/assets/images/icon-verbal.svg";
+import visual from "@src/assets/images/icon-visual.svg";
+
 function App() {
   const summaryData = [
     {
       category: "Reaction",
       score: 80,
-      icon: "./src/assets/images/icon-reaction.svg",
+      icon: `${reaction}`,
     },
     {
       category: "Memory",
       score: 92,
-      icon: "./src/assets/images/icon-memory.svg",
+      icon: `${memory}`,
     },
     {
       category: "Verbal",
       score: 61,
-      icon: "./src/assets/images/icon-verbal.svg",
+      icon: `${verbal}`,
     },
     {
       category: "Visual",
       score: 72,
-      icon: "./src/assets/images/icon-visual.svg",
+      icon: `${visual}`,
     },
   ];
 
@@ -32,7 +37,9 @@ function App() {
               placeSelf: "center",
             }}
           >
-            <h1 className="h1" style={{ color: "var(--Light-lavender)" }}>Your Result</h1>
+            <h1 className="h1" style={{ color: "var(--Light-lavender)" }}>
+              Your Result
+            </h1>
           </div>
           <div className="result-data">
             <div className="circle-gradient">
@@ -45,17 +52,13 @@ function App() {
               >
                 76
               </h1>
-              <p className="p">
-                of 100
-              </p>
+              <p className="p">of 100</p>
             </div>
-            <div className="comments" style={{paddingTop:"0em"}}>
-              <h1 >
-                Great
-              </h1>
+            <div className="comments" style={{ paddingTop: "0em" }}>
+              <h1>Great</h1>
               <p style={{ color: "var(--Light-lavender)" }}>
-                You scored higher than 65% of the<br /> people who have taken
-                these tests.
+                You scored higher than 65% of the
+                <br /> people who have taken these tests.
               </p>
             </div>
           </div>
@@ -103,7 +106,7 @@ function App() {
             >
               Frontend Mentor
             </a>
-            . Coded by <a href="#">XYHOMi3</a>.
+            . Coded by <a href="https://xyhomi3.github.io">XYHOMi3</a>.
           </div>
         </div>
       </div>
