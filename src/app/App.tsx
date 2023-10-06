@@ -4,7 +4,7 @@ import verbal from "@src/assets/images/icon-verbal.svg";
 import visual from "@src/assets/images/icon-visual.svg";
 
 function reloadPage() {
-  window.location.reload(); // This will reload the current page
+  window.location.reload();
 }
 
 function App() {

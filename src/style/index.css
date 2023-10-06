@@ -184,7 +184,7 @@ button:hover {
   align-items: center;
   color: var(--White);
   z-index: 100;
-  font-size: 24px; /* Adjust font size as needed */
+  font-size: 24px;
 }
 
 .space{
